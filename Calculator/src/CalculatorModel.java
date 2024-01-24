@@ -19,4 +19,7 @@ public class CalculatorModel {
 
     public int square(int a) {return a * a;}
 
+    
+
+
 }
