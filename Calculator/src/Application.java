@@ -4,12 +4,13 @@ public class Application {
         //~~~~~~~실행하는 것들~~~~~~~~~~~
         //이것저것 선언하고 만들고 외부함수 들여와서 쓸거야.\
 
+        Weapon w = new Weapon();
         int health = 10;
-        int damage = 5;
+        int damage = w.equipmentWeapon("Bow");
 
-        CalculatorModel c = new CalculatorModel();
+        Hit hit = new Hit();
 
-        System.out.print(c.sub(health, damage));
+        hit.damaged(0.5, health, damage);
 
 
     }
