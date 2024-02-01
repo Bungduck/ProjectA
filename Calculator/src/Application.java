@@ -16,10 +16,15 @@ public class Application {
         hit.damaged(0.5, health, damage);
         */
 
-        MonsterDictionary mD = new MonsterDictionary();
-        SearchData sD = new SearchData();
+//        MonsterDictionary mD = new MonsterDictionary();
+//        SearchData sD = new SearchData();
+//
+//        sD.searchData(mD.monsterData, 444);
+//
+//        DoubleHeal dH = new DoubleHeal();
+//        dH.doubleHeal(10, 5, 3);
 
-        sD.searchData(mD.monsterData, 444);
+        Date d = new Date();
 
 
 
