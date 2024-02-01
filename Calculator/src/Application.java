@@ -26,17 +26,21 @@ public class Application {
 
 //        WeaponOption wO = new WeaponOption(30,35);
 
-        SearchData sD = new SearchData();
-        
-        int[] arr = {5, 10, 15, 20, 25};
-        int goal = 7;
+//        SearchData sD = new SearchData();
+//
+//        int[] arr = {5, 10, 15, 20, 25};
+//        int goal = 5;
+//
+//        if(sD.searchArrayData(arr, goal)){
+//            System.out.println("일치하는 것을 찾았습니다.");
+//        }
+//        else{
+//            System.out.println("일치하는 것을 찾지 못했습니다.");
+//        }
 
-        if(sD.searchArrayData(arr, goal)){
-            System.out.println("일치하는 것을 찾았습니다.");    
-        }
-        else{
-            System.out.println("일치하는 것을 찾지 못했습니다.");
-        }
+        SumDamage SD = new SumDamage();
+        int dmgarr[] = {1, 2, 3, 4, 5};
+        SD.keepHit(10, dmgarr);
         
 
 
