@@ -24,7 +24,7 @@ public class Application {
 //        DoubleHeal dH = new DoubleHeal();
 //        dH.doubleHeal(10, 5, 3);
 
-        Date d = new Date();
+        WeaponOption wO = new WeaponOption(5,8);
 
 
 
