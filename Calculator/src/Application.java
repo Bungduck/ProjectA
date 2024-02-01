@@ -24,8 +24,20 @@ public class Application {
 //        DoubleHeal dH = new DoubleHeal();
 //        dH.doubleHeal(10, 5, 3);
 
-        WeaponOption wO = new WeaponOption(5,8);
+//        WeaponOption wO = new WeaponOption(30,35);
 
+        SearchData sD = new SearchData();
+        
+        int[] arr = {5, 10, 15, 20, 25};
+        int goal = 7;
+
+        if(sD.searchArrayData(arr, goal)){
+            System.out.println("일치하는 것을 찾았습니다.");    
+        }
+        else{
+            System.out.println("일치하는 것을 찾지 못했습니다.");
+        }
+        
 
 
     }

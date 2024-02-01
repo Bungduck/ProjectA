@@ -36,4 +36,10 @@ public class SearchData {
         }
 
     }
+
+
+    // arrays 배열안에 있는 값들 중에서 goalNum이 있는지 탐색하는거야.
+    public boolean searchArrayData(int[] arrays, int goalNum){
+
+    }
 }
