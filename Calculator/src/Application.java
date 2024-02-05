@@ -58,7 +58,14 @@ public class Application {
         // Start와 End 사이에서 작업하면 됨.
         // 문자열(String)을 입력 받아서 반복문을 이용해 문자 하나하나 출력해보기.
         // Start
+        Scanner sc = new Scanner(System.in);
+        System.out.print("문자열을 입력하시오 : ");
+        int String = sc.nextInt();
+        System.out.print("문자열을 하나하나 출력하시오: ");
+        char s[i] = new char[];
+        for(int i; i < s.length; i++){
 
+        }
 
         // End
 

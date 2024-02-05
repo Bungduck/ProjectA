@@ -8,6 +8,7 @@ public class SumDamage {
 
             if(health <= 0){
                 System.out.println("캐릭터가 죽었습니다.");
+
                 return;
             }
         }
