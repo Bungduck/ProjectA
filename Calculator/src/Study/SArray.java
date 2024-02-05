@@ -10,12 +10,17 @@ public class SArray {
         // 총 0부터 9까지 값이 출력되도록 하시오.
         // Start
             
-            char[] arr1 = {0,1,2,3,4,5,6,7,8,9};
-            char[] arr2 = new char[i];
+        char[] arr = {'0','1','2','3','4','5','6','7','8','9'};
+        for(int i = 0; i < arr.length; ++i)
+            System.out.println(arr[i]);
 
-            for(char i = 0; i < arr1.length; ++i);
-            System.out.println(arr1[1],arr1[2],arr1[3],arr1[4],arr1[5],arr1[6],arr1[7],arr1[8],arr1[9]);
+        char[] arr2 = new char[10];
+        for(int i = 0; i < arr2.length; ++i){
+            arr2[i] = (char) ('0' + i);
         }
+        for(int i = 0; i < arr2.length; ++i)
+            System.out.println(arr2[i]);
+
         // End
     }
 }

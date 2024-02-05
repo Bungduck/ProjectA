@@ -24,6 +24,12 @@ public class Variable {
         c = 'c';
         b = true;
         b = false; // 둘중 하나만 가능
+
+        d = i;
+        i = (int)d;
+
+        i = c;
+        c = (char)i;
     }
 
 }
