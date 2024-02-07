@@ -12,21 +12,27 @@ public class SFor {
 
         // 문제: 1부터 50이하의 소수를 모두 출력하는 프로그램을 만드시오.
         // Start
-        int primnum;
-        int j = 0;
-        int i;
-        for (i = 2; i <= 50; ++i) {
-            j = 0;
-            for (primnum = 2; primnum < i; ++primnum) {
-            }
-            if (i % primnum == 0)
-                j += 1;
-        }
-        if (j == 0)
-            System.out.println(i + "소수");
-
-    }
-        }
+//        int primnum;
+//        int j = 0;
+//        for (int i = 2; i <= 50; ++i) {
+//            j = 0;
+//            for (primnum = 2; primnum < i; ++primnum) {
+//                if (i % primnum == 0)
+//                    j += 1;
+//            }
+//
+//            if (j == 0)
+//                System.out.println(i + "소수");
+//        }
         // End
+
+        for(int i = 1; i <= 50; ++i){
+            for(int k = 2; k <= i; ++k){
+                if(k == i) System.out.println(i + "소수");
+                else if(i % k == 0) break;
+            }
+        }
+    }
+}
 
 
