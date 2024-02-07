@@ -22,7 +22,7 @@ public class SIf {
         else if (score < 90){
             System.out.println("B");
         }
-        else if (score < 100){
+        else if (score <= 100){
             System.out.println("A");
         }
         // End
