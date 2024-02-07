@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8d1e1f2-9b3a-427e-a5ad-58b5514be387" name="Changes" comment="" />
+    <list default="true" id="e8d1e1f2-9b3a-427e-a5ad-58b5514be387" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Study/SArray.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Study/SVariable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Variable.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
