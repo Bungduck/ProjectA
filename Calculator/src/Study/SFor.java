@@ -1,7 +1,7 @@
 package Study;
 
 public class SFor {
-    public SFor(){
+    public SFor() {
         // 소수의 특징 1과 자기 자신을 약수로 갖는 수.
         // 약수 : 어떤 수를 나눌 수 있는 수.
         // 어떤 수를 표현하기 위한 최소한의 단위 수.
@@ -12,8 +12,21 @@ public class SFor {
 
         // 문제: 1부터 50이하의 소수를 모두 출력하는 프로그램을 만드시오.
         // Start
-
-        // End
+        int primnum;
+        int j = 0;
+        int i;
+        for (i = 2; i <= 50; ++i) {
+            j = 0;
+            for (primnum = 2; primnum < i; ++primnum) {
+            }
+            if (i % primnum == 0)
+                j += 1;
+        }
+        if (j == 0)
+            System.out.println(i + "소수");
 
     }
-}
+        }
+        // End
+
+
