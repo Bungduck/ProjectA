@@ -1,8 +1,8 @@
 public class Variable {
     // 정수
-    short si; // 2Byte 저장
+    public short si; // 2Byte 저장
     int i; // 4Byte 저장 // 변수 선언
-    long l; // 8Byte 저장
+    private long l; // 8Byte 저장
     
     // 실수
     float f; // 4Byte 저장
