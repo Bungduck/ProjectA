@@ -1,18 +1,17 @@
-import Dict.Item;
-import Dict.Student;
+import Study.Unit;
 
 public class Application {
     public static void main(String[] args) {
+        Unit player = new Unit(50, 20, 4); // HP, ATK, DEF
+        Unit monster = new Unit(100, 5, 5); // HP, ATK, DEF
 
-        Item suriken = new Item(1000, "뇌전", 2);
-        Item slime = new Item(100, "슬라임의 액체", 3);
+        while(!player.isDead() || !monster.isDead()){
+            player.attack(monster);
+            if(monster.isDead()) break;
+            monster.attack(player);
+        }
 
-        Variable v = new Variable();
-
-        Student s1 = new Student(2020123456, "홍길동");
-        System.out.println("s1 학생의 이름은" + s1.name + "입니다.");
-
+        player.display();
+        monster.display();
     }
 }
-
-// 이클립스랑 Intellij랑 그냥 똑같이 자바 실행시키는 거라서 상관없어.
