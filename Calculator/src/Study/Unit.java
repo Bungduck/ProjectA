@@ -7,4 +7,24 @@ package Study;
 // 각각의 캐릭터는 공격 메소드를 가지고 있습니다.
 public class Unit {
 
+    private int hp;
+
+    private int atk;
+
+    private int def;
+
+    public Unit(int hp, int atk, int def) {
+        this.hp = hp;
+        this.atk = atk;
+        this.def = def;
+
+
+        public void display() {
+            System.out.println(hp + " " + atk + " " + def);
+        }
+        
+    }
+
+
+
 }
